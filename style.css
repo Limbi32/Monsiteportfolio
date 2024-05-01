@@ -1,0 +1,299 @@
+body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: white
+
+	
+}
+section{
+	padding: 20px;
+}
+header{
+padding: 0px;
+display: flex;
+justify-content: space-between;
+background-color: rgba(15,55,57,0.9);
+color: antiquewhite;
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	padding:5px;
+
+}
+nav ul li{
+	font-size: 30px
+	
+
+}
+nav  ul li a{
+	text-decoration: none;
+	padding:5px;
+	color: antiquewhite;
+}
+.photo{
+	width: 300px;
+	background-image: url('capture.png');
+}
+.corps1{
+	background-color:  rgba(20,55,100,0.3);
+	height: 400px;
+}
+
+.propos, .cont{
+	background-color:  rgba(20,55,100,0.3);
+	flex: 3;
+	padding: 10px;
+}
+.propos li{
+	font-size: 20px;
+	list-style-type: none;
+	padding: 9px;
+}
+
+.bloc1{
+background-color:  rgba(20,55,100,0.3);
+}
+
+ 
+section h1,h2{
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px black;
+	color:orange;
+	
+}  
+.titrecv{
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px black;
+	color:orange;
+	width: 229px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid cyan;
+	background-color: rgba(15,55,100,0.1);
+}
+.pr{
+	
+	
+}
+
+.cont{
+	display: flex;
+	
+}
+
+nav a:hover{
+	opacity: 0.2
+	
+	
+}
+article{
+	width:300px;
+	height:300px;
+	border: 1px solid black;
+}
+.part2{
+	display: flex;
+}
+
+.pied{
+	
+	display: flex;
+	justify-content: space-between;
+}
+.pied div{
+	margin:5px;
+}
+footer{
+	margin-top: 30px;
+	padding-top: 50px;
+	background-color: rgba(15,55,57,0.9);
+}
+.cop{
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: 3px;
+	background-color: rgba(5,55,70,0.5);
+}
+section{
+	margin: 3px
+}
+.bloc1{
+	display: flex;
+
+}
+.bloc2{
+	display: flex;
+	justify-content: space-around;
+	
+
+}
+.bloc2 div{
+	border: 1px solid  rgba(20,55,80,0.3);
+	background-color:  rgba(20,55,100,0.3);
+}
+
+.info{
+	display: flex;
+	justify-content: space-between;
+}
+.lgi div{
+	display: block;
+}
+.lgi{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.det div{
+	width: 100PX;
+	height: 100px;
+	
+	padding: 15px;
+	
+	
+	
+	margin: auto;
+}
+.det h3{
+	margin-top: 0px;
+	background-color: rgba(15,55,100,0.7);
+}
+.det{
+box-shadow: 3px 3px;
+width:229px;
+
+	
+background-color:  rgba(20,55,100,0.3);
+}
+.det h3{
+	height: 50px;
+}
+.wd{
+	background-image: url('wd.jfif');
+	background-size: 100px;
+	background-repeat: no-repeat;
+
+}
+.sql{
+	background-image: url('sql-database-generic.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+}
+.java{
+	background-image: url('Java-Logo.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+}
+.css{
+	background-image: url('front.jfif');
+	background-size: 100px;
+	background-repeat: no-repeat;
+}
+.php{
+	background-image: url('phpsql.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+}
+.cont1 ul{
+	list-style-type: none;
+
+}
+footer{
+	position: relative;
+	bottom: 0px;
+	width: 1320px;
+	padding: 7px;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+
+nav{
+	background-color:  rgba(15,55,100,0.4);
+	padding:0px;
+
+
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+	padding:5px;
+
+}
+nav ul li{
+	font-size: 20px
+	
+
+}
+nav  ul li a{
+	text-decoration: none;
+	padding:5px;
+	color:  black
+}
+#logo h1{
+margin-top: 20px;
+	font-size:15px;
+}
+section h1,section h2{
+	font-size: 18px;
+}
+section div{
+	font-size: 15px;
+}
+.propos li{
+	font-size: 15px;
+}
+.photo{
+	width: 200px;
+	background-image: url('capture.png');
+		background-size: 200px;
+	background-repeat: no-repeat; 
+}
+.titrecv{
+	font-size: 10px;
+	width: 100%;
+	height: 200%.
+
+}
+.sel{
+	width: 200px;
+	height: 200px
+
+}
+.sel ul{
+	font-size:10px;
+}
+.bloc4 div{
+	font-size: 10px;
+}
+.pied ul{
+		font-size: 10px;
+}
+.pied h2{
+		font-size: 10px;
+		text-align: center;
+}
+.det{
+	width: 200px;
+	height: 150px;
+}
+.det h3{
+	font-size: 10px;
+	height: 40%;
+}
+.det div{
+	width: 20px;
+	height: 20px;
+	background-size: 100%;: 
+}
+.lgi{
+	display: flex;
+	justify-content: space-around;
+}
+section div{
+	font-size: 13px;
+}
+
+}
