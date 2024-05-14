@@ -5,7 +5,7 @@ var porto=document.querySelector('.porto');
 
 
 cv.addEventListener('click',function(){
-	
+	 
 	location.assign('cv.html');
 });
 porto.addEventListener('click',function(){
