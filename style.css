@@ -1,15 +1,18 @@
 body{
 	background-color:  rgb(56, 45, 47);
-	background-image: url("font3.jpg");
+	background-image: url("font1.jpg");
 	
 	background-size: 1367px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	
-	 
 	margin: 0;
 	padding: 0;
 
 }
-
+section{
+	margin: 7px;
+	padding: 7px;
+}
 .menu{
 	background-color: rgb(56, 45, 47,0.5);
 	margin: 0;
@@ -22,6 +25,17 @@ body{
 	list-style-type: none;
 	padding: 7px;
 	font-size: 20px;
+
+	
+}
+
+.menu nav ul li:hover{
+	background-color: rgb(13, 111, 196,0.3);
+	
+	
+}.menu nav ul li:focus{
+	color: red;
+	
 	
 }
 .menu nav ul a{
@@ -29,11 +43,14 @@ body{
 	color: aliceblue;
 }
 .corps1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding:20px;
 	margin:20px;
 }
 .corps1 p{
-	color: aliceblue;
+	color: white;
 	text-transform: uppercase;
 
 	
@@ -41,25 +58,30 @@ body{
 .corps1 h1{
 	
 	text-transform: uppercase;
-	color: aliceblue;
+	color: rgb(38, 78, 112);
 	font-size: 40px;
 	
 }
+.portofolio div{
+	
+	margin: 15px;
+}
 .portofolio{
 	
-	width: 300px;
-	border-color: rgb(15, 122, 42);
+	background-color: rgb(13, 111, 196,0.3);
 	padding: 15px;
 	border-radius: 10px;
-	box-shadow: 2px  2px 2px 2px white;
-	margin: 10px;
-	width: 100%;
+	
+	
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
-.portofolio div{
-	border-radius: 10px;
-	box-shadow: 2px  2px 2px 2px white;
+.portofolio div img{
+	width: 300px;
+	background-color: rgb(13, 111, 196,0.1);
+
+	
 }
  div a{
 	text-decoration: none;
@@ -68,6 +90,37 @@ body{
 	text-transform: uppercase;
 	color: aliceblue;
 	padding: 7px;
+	
+}
+.portofolio div h2{
+	color: aliceblue;
+	text-align: center;
+}
+.portofolio div a{
+	background-color: rgb(56, 45, 47,0.5);
+	width: 50px;
+	margin: auto;
+	padding: 15px;
+	border-radius: 7px;
+	
+}
+.corps2{
+	background-color: rgba(87, 108, 128,0.2);
+	padding: 10px;
+	height: 100%;
+	
+}
+.corps2  img{
+	width: 300px;
+	
+}
+.corps2 h2{
+	text-align: center;
+	color: aliceblue;
+
+}
+.corps1{
+	margin: 50px;
 }
 .corps1  img{
 	width: 300px;
@@ -82,18 +135,31 @@ body{
 .special{
 	letter-spacing: 5px;
 	font-size: 10px;
+	
 }
 .corps1 button{
-	border-radius: 15px;
+	
 	padding: 5px;
 	width: 100px;
+	margin: 7px;
 	background-color: transparent;
 	color: aliceblue;
-	border-color: aliceblue;
-	box-shadow: 0px 3px white;
+	border-color: rgb(38, 78, 112);
+	font-size: 20px;
+}
+.corps1 button:hover{
+	background-color: rgb(38, 78, 112);
+}
+.cv{
+	background-color: rgb(38, 78, 112);
+	
 }
 .cont1{
 	color: aliceblue;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	flex-wrap: wrap;
 }
 .cont1 ul li{
 	list-style-type: none;
@@ -102,34 +168,78 @@ body{
 	margin: 15px;
 }
 section h1{
-	color: aliceblue;
+	color: rgb(38, 78, 112);
 	
+	text-transform: uppercase;
 	
 }
+
 .propos{
-	display: flex;
-	justify-content: center;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	word-spacing: 10px;
-	border-spacing: 10px;
-}
-.propos ul li{
-	list-style-type: none;
+	width: 700px;
 	color: aliceblue;
 	padding: 10px;
+	
+}
+.bloc1{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(42, 90, 133,0.3);
+	margin: 40px;
+}
+
+.photo{
+	margin: 20px;
+	border: 3px ridge  rgb(42, 90, 133,0.3);
+	opacity: 0.3;
+	
+
+}
+
+.photo img{
+	width: 200px;
+	background-color: rgba(16, 52, 212, 0.1);
 }
 .bloc2{
    color: aliceblue;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
+   border-color: rgba(20,55,100,0.5);
+   border-width: 5px;
+   background-color: rgb(42, 90, 133,0.3);
+  margin: 40px;
 }
 .sel{
-	border-radius: 70px;
-	border-color: aliceblue;
-	padding: 40px;
-	background-color: rgba(20,55,100,0.3);
 	
+	box-shadow: 3px 3px rgba(165, 98, 145, 0.2);
+	padding: 10px;
+	margin-bottom: 40px;
+}
+.sel ul{
+	display: flex;
+	justify-content: space-between;
+	
+	flex-wrap: wrap;
+	
+	padding: 10px;
+}
+.menu button{
+	background-color: rgb(13, 111, 196,0.3);
+	display: none;
+	padding: 10px;
+	border-radius: 7px;
+	
+}
+.sel ul li{
+	list-style-type: none;
+	padding: 10px;
+	border: 2px solid white;
+	background-color: rgba(104, 94, 114,0.2);
+	width: 130PX;
+	text-align: center;
+}
+.titrecv{
+	font-size: 29px;
+	text-align: center;
+	color: whitesmoke;
+	background-color: rgba(155, 117, 11, 0.2);
 }
 .bloc3{
 	color: aliceblue;
@@ -137,11 +247,10 @@ section h1{
  .bloc4{
 	color: aliceblue;
 	
-	
-	
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	
  }
  .bloc4 div{
 	width: 100px;
@@ -153,4 +262,47 @@ section h1{
  footer{
 	padding: 7px;
 	margin: 7px;
+ }
+ .mn{
+	display: none;
+ }
+ 
+ 
+ @media screen and (max-width: 700px){
+	.menu{
+		display: flex;
+		justify-content: end;
+		flex-direction: column-reverse;
+	}
+	
+	.menu nav ul{
+		display: none;
+		
+		padding: 0;
+
+	}
+	.menu nav ul li{
+		
+		display: flex;
+		justify-content: start;
+	}
+	.mn{
+		display: block;
+		
+	}
+	.mn img{
+		height: 12px;
+		width: 20px;
+		margin: 20px
+	}
+	
+	.photo img{
+		width: 100px;
+	}
+	.portofolio div img{
+		width: 150px;
+	
+	
+		
+	}
  }
