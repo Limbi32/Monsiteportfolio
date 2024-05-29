@@ -22,6 +22,7 @@ section{
 	flex-direction: column;
 	justify-content: center;
 	margin-right: 7px;
+	float:right;
 }
 .menu{
 	background-color: rgb(56, 45, 47,0.5);
