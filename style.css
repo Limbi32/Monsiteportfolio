@@ -331,6 +331,8 @@ section h1{
 	
 	.portofolio{
 		display: flex;
+		justify-content: center;
+		align-items: center;
 		flex-direction: column;
 	}
 	.photo img{
