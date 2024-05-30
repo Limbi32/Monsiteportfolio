@@ -44,7 +44,8 @@ section{
 	background-color: rgb(13, 111, 196,0.3);
 	
 	
-}.menu nav ul li:focus{
+}
+.menu nav ul li:focus{
 	color: red;
 	
 	
@@ -291,6 +292,24 @@ section h1{
 		
 	}
 	
+	.menu nav ul li:hover{
+		border-bottom: 2px solid rgb(13, 111, 196,0.3);
+		background-color: none;
+		
+		
+		
+	}
+	.menu nav ul li:focus{
+		border-bottom: 2px solid rgb(13, 111, 196,0.3);
+		
+		
+	}
+	
+	.sel ul{
+		display: flex;
+		justify-content: center;
+	}
+	
 	.lis{
 		margin-right: 2px;
 	}
@@ -308,18 +327,17 @@ section h1{
 	}
 	
 	.menu nav ul{
+		
 		display: none;
 		width: 100%;
-		
+		float: right;
 		
 		padding: 0;
 
 	}
 	.menu nav ul li{
+		display: block;
 		
-		display: flex;
-		margin-right: 0px;
-		justify-content: flex-end;
 	
 	}
 	.mn{
