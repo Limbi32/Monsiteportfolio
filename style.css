@@ -286,11 +286,7 @@ section h1{
 		justify-content: space-between;
 		
 	}
-	.sel{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+	
 	.lis{
 		margin-right: 2px;
 	}
