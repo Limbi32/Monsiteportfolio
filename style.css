@@ -22,11 +22,11 @@ section{
 	flex-direction: column;
 	justify-content: center;
 	margin-right: 7px;
-	float:right;
 }
 .menu{
 	background-color: rgb(56, 45, 47,0.5);
 	margin: 0;
+	
 }
 .menu nav ul{
 	display: flex;
@@ -85,8 +85,8 @@ section{
 	
 	
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows:1fr 1fr 1fr;
+	grid-template-columns: 2fr 2fr ;
+	grid-template-rows: 2fr 2fr;
 	
 }
 .portofolio div img{
@@ -187,7 +187,7 @@ section h1{
 }
 
 .propos{
-	width: 700px;
+	
 	color: aliceblue;
 	padding: 10px;
 	
@@ -283,12 +283,38 @@ section h1{
  @media screen and (max-width: 700px){
 	.menu{
 		display: flex;
-		justify-content: end;
-		flex-direction: column-reverse;
+		justify-content: space-between;
+		
+	}
+	.lis{
+		margin-right: 2px;
+	}
+	.bloc1{
+		display: flex;
+		flex-direction: column;
+		
+		
+	}
+	.corps1 button{
+	
+		padding: 5px;
+		width: 80px;
+		margin: 7px;
+		background-color: transparent;
+		color: aliceblue;
+		border-color: rgb(38, 78, 112);
+		font-size: 20px;
+	}
+	
+	.propos{
+		display: flex;
+		flex-direction: column;
 	}
 	
 	.menu nav ul{
 		display: none;
+		width: 100%;
+		
 		
 		padding: 0;
 
@@ -296,17 +322,17 @@ section h1{
 	.menu nav ul li{
 		
 		display: flex;
-		justify-content: start;
+		margin-right: 0px;
+		justify-content: flex-end;
+	
 	}
 	.mn{
 		display: block;
+		margin-right: 10px;
+
 		
 	}
-	.mn img{
-		height: 12px;
-		width: 20px;
-		margin: 20px
-	}
+	
 	
 	.photo img{
 		width: 100px;
