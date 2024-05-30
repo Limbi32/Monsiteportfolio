@@ -296,16 +296,7 @@ section h1{
 		
 		
 	}
-	.corps1 button{
 	
-		padding: 5px;
-		width: 80px;
-		margin: 7px;
-		background-color: transparent;
-		color: aliceblue;
-		border-color: rgb(38, 78, 112);
-		font-size: 20px;
-	}
 	
 	.propos{
 		display: flex;
