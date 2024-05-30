@@ -281,6 +281,10 @@ section h1{
  
  
  @media screen and (max-width: 700px){
+
+	header{
+		margin: 3px;
+	}
 	.menu{
 		display: flex;
 		justify-content: space-between;
@@ -325,7 +329,10 @@ section h1{
 		
 	}
 	
-	
+	.portofolio{
+		display: flex;
+		flex-direction: column;
+	}
 	.photo img{
 		width: 100px;
 	}
